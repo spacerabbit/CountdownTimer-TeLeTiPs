@@ -164,7 +164,7 @@ async def set_timer(client, message):
                     finish_countdown = await get_user_input_time.edit(Countdown_TeLe_TiPs)
                     await asyncio.sleep(3)
                     user_input_time -=3
-                await finish_countdown.edit("🚨 Beep! Beep!! **TIME'S UP!!!**")
+                await finish_countdown.edit("🚨 Buon Anno! Beep!! **TIME'S UP!!!**")
             elif 3600<=user_input_time<86400:
                 while user_input_time>0 and not stoptimer:
                     h=user_input_time%(3600*24)//3600
